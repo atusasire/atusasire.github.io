@@ -34,19 +34,19 @@ layout: default
             <div class="col-sm-4 col-md-4">
             	<h3 align="center"  style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Conferences</h3>
             	<img src="{{ site.baseurl }}/img/conference.jpg" class="img-circle  col-md-offset-3" width="150">
-            	<p align="center">The biggest Google related developer event in Istanbul carefully crafted for you by GDG community! Awesome speakers and lot's of fun! This time, right in the heart of Istanbul!
+            	<p align="center">The Data Science Conference is a high quality, high class conference and I am proud to support it and be affiliated with it.
             	</p>
             </div>
             <div class="col-sm-4 col-md-4">
             	<h3 align="center" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Workshops</h3>
             	<img src="{{ site.baseurl }}/img/workshops.jpg" class="img-circle  col-md-offset-3" width="150">
-            	<p align="center">The biggest Google related developer event in Istanbul carefully crafted for you by GDG community! Awesome speakers and lot's of fun! This time, right in the heart of Istanbul!
+            	<p align="center">Data science Africa workshop will provide a platform for experts from government, private sector (banking, insurance, telecoms, utility companies in water and energy etc), academia, civil society, non-governmental organisations and development partners discuss and charter ways of using big data and data science to monitor and track progress in attaining global goals in Africa.
             	</p>
             </div>
             <div class="col-sm-4 col-md-4">
             	<h3 align="center" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Summer school</h3>
             	<img src="{{ site.baseurl }}/img/summerschool.png" class="img-circle  col-md-offset-3" width="200">
-            	<p align="center">The biggest Google related developer event in Istanbul carefully crafted for you by GDG community! Awesome speakers and lot's of fun! This time, right in the heart of Istanbul!
+            	<p align="center">Data science seeks to exploit advances in machine learning and statistics to make sense of the growing amounts of data available from various sources. In Africa, a number of problems in areas such as healthcare, agriculture, disaster response and wildlife conservation would benefit greatly if domain experts were exposed to data science techniques. These skills would allow practitioners to extract useful information from these abundant sources of raw data.
             	</p>
             </div>
         </div>
@@ -57,7 +57,9 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">PARTNERS</h2>
+        <h2 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">PARTNERS
+         <svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg>
+         </h2>
         <LEGEND style="text-align: center">Organizers</LEGEND>
         	<div class="row">
                <div class="col-sm-6 col-md-3">
@@ -98,25 +100,31 @@ layout: default
                     	<img src="{{ site.baseurl }}/img/califonia.jpeg" width="100">
                     </div>
                 </div>
+                 <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                        <img src="{{ site.baseurl }}/img/mcrops.png" width="100">
+                    </div>
+                </div>
             </div>
     </div>
 </div>
 <!-- End Treatments -->
 
 <!-- Start Our team -->
-<div id="team" class="team" style="background-image: url('{{ site.baseurl }}/img/conferencebg.jpeg');
-								   background-repeat: no-repeat;
-								   background-size: 100% 100%;
-								   opacity: 0.1;">
-    <h2 class="section-title" style="background-color: #000;">EVENTS OVER THE YEARS</h2>
+<div id="team" class="team" style="background-color: #fff; background-image: url('{{ site.baseurl }}/img/bg.png');">
+    <h2 class="section-title" style="color: #000; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">EVENTS OVER THE YEARS <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg></h2>
     <div id="team-carousel" class="col-md-offset-3">
 
 
         <div class="expandable-box"  style="background-color: #000;">
             <div class="expandable-box-top">
                <!--  <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
- -->            <h2>Data Science Conference</h2>
- 				<h4>2016</h4>
+ -->            <h3 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    Data Science Conference
+                </h3>
+ 				<h4 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    2016
+                </h4>
             </div>
             <div class="expandable-box-bottom">
 
@@ -128,8 +136,12 @@ layout: default
         <div class="expandable-box">
             <div class="expandable-box-top">
                <!--  <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
- -->            <h2>Data Science Conference</h2>
- 				<h4>2015</h4>
+ -->            <h3 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    Data Science Conference
+                </h3>
+ 				<h4 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    2015
+                </h4>
             </div>
             <div class="expandable-box-bottom">
 
@@ -144,10 +156,10 @@ layout: default
 <!-- End Our team -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<div id="testimonials" class="" style="background-color: #efefef; text-align: center; ">
     <div class="overlay-container">
         <div class="overlay"></div>
-        <div class="container-fluid">
+        <div class="container-fluid" >
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
                     <div class="testimonial-item">
@@ -283,10 +295,11 @@ layout: default
 	 	</h2>
 	 	<div class="row">
 	 		<div class="col-sm-4 col-md-4"></div>
-	 		<div class="col-sm-4 col-md-4" style="text-align:center; margin-top: -50px; margin-bottom: -50px;">
+	 		<div class="col-sm-4 col-md-4" style="text-align:center; margin-top: -50px; margin-bottom: -80px;">
 		        <ul class="nav">
-		            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-		            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+		            {% if site.contact.phone %}<li><strong>
+                        <svg class="icon icon-p"><use xlink:href="#icon-phone"></use></svg>
+                    </strong> {{ site.contact.phone }}</li>{% endif %}
 		            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
 		        </ul>
 		    </div>
